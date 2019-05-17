@@ -13,6 +13,6 @@ let aboutSection = $('#about-section');
 aboutSection.hide();
 
 aboutBtn.on('click', () => {
-    aboutSection.fadeIn();    
+      
 });
 
