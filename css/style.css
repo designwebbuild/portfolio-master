@@ -7,5 +7,108 @@
 
 html body {
     height: 100vh;
-    width: 100vw;
+}
+/*
+* Main container
+*/
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #FFF3E0;
+}
+
+
+/*
+* Navigation
+*/
+
+.nav {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.nav-ul-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000;
+}
+
+/*
+* Social icons
+*/
+
+.social-icons {
+    position: absolute;
+    bottom: 50%;
+}
+
+.social-icons-ul {
+    list-style: none;
+    font-size: 3rem;
+    padding-left: 2px;
+}
+
+.social-icons-li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*
+* Section (Logo)
+*/
+
+.logo-img img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+/*
+* Section (About)
+*/
+
+.container-about {
+    height: 100%;
+    margin: 0 10% 0 10%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 3px 5px 9px #000;
+}
+
+.container-about img {
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 40px auto;
+}
+
+.container-about p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    display: block;
+    padding: 0 20px 20px 20px;
+}
+
+/*
+* Footer container
+*/
+
+.footer {
+    height: 10%;
+    width: 70%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
 }
