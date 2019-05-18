@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-html body {
+html, body {
     height: 100vh;
 }
+
 /*
 * Main container
 */
@@ -15,8 +16,8 @@ html body {
 .container {
     max-width: 70%;
     margin: 0 auto;
-    height: 100%;
-    background-color: #FFF3E0;
+    min-height: 100%;
+    background-color: #FFF8E1;
 }
 
 
@@ -42,11 +43,11 @@ html body {
     font-size: 1.25rem;
     font-weight: 700;
     color: #000;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .nav-li a:hover {
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #6200EE;
 }
 
 /*
@@ -84,26 +85,52 @@ html body {
 */
 
 .container-about {
-    height: 100%;
-    margin: 0 10% 0 10%;
-    border: 1px solid #000;
-    border-radius: 5px;
-    box-shadow: 3px 5px 9px #000;
+    height: 100v%;
+    margin: 0 5% 0 5%;
+}
+
+.about-text {
+    display: block;
+    width: 80%;
+    margin: 20px auto 0 auto; 
 }
 
 .container-about img {
-    width: 200px;
-    border: 2px solid #fff;
+    width: 150px;
+    border: 2px solid #000;
     border-radius: 50%;
-    display: block;
-    margin: 20px auto 40px auto;
+    display: inline-block;
+    margin-left: 10%;
 }
 
 .container-about p {
     font-size: 1.25rem;
     line-height: 2rem;
+}
+
+.tech-stack {
     display: block;
-    padding: 0 20px 20px 20px;
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+
+.tech-stack h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10%;
+    color: #6200EE;
+}
+
+.tech-stack ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tech-stack li {
+    list-style: none;
+    font-size: 3rem;
+    margin-top: 10%;
 }
 
 /*
@@ -111,28 +138,41 @@ html body {
 */
 
 .name-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
 .name {
     font-size: 3rem;
+    font-weight: 200;
     margin-bottom: 10px;
 }
 
 .name span {
-    color: purple;
+    color: #FF9800;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.title span {
+    color: #6200EE;
+    font-weight: 700;
 }
 
 /*
 * Footer container
 */
 
-.footer {
+/* .footer {
     height: 10%;
     width: 70%;
     background-color: #000;
     position: absolute;
     bottom: 0;
-}
+} */
