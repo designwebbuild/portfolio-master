@@ -88,6 +88,39 @@ html, body {
 }
 
 /*
+* Section (Name)
+*/
+
+.name-section {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.name {
+    font-size: 3.5rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.name span {
+    color: #FF9800;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.title span {
+    color: #6200EE;
+    font-weight: 700;
+}
+
+/*
 * Section (About)
 */
 
@@ -179,38 +212,6 @@ html, body {
 
 .project-icons a:hover {
     color: #bbb;
-}
-
-/*
-* Section (Name)
-*/
-
-.name-section {
-    display: block;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.name {
-    font-size: 3rem;
-    font-weight: 200;
-    margin-bottom: 10px;
-}
-
-.name span {
-    color: #FF9800;
-    font-weight: 700;
-}
-
-.title {
-    font-size: 3rem;
-    font-weight: 200;
-}
-
-.title span {
-    color: #6200EE;
-    font-weight: 700;
 }
 
 /*
