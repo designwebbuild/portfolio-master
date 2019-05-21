@@ -21,7 +21,7 @@ html, body {
 */
 
 .container {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     min-height: 100%;
     background-color: #FFF8E1;
@@ -157,13 +157,12 @@ html, body {
 .tech-stack ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .tech-stack li {
     list-style: none;
     font-size: 3rem;
-    margin-top: 10%;
+    margin: 5%;
 }
 
 /*
