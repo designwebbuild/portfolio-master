@@ -7,15 +7,17 @@ let blogBtn = $('#blog');
 let contactBtn = $('#contact');
 let aboutSection = $('#about-section');
 let nameSection = $('#name-section');
+let body = $('.container');
 
 
 
 
-
+// Hidden about me section on page load
 aboutSection.hide();
-
-aboutBtn.on('click', () => {
-    nameSection.hide();
-      aboutSection.show();
-});
-
+nameSection.hide();
+// Button to call about section
+// aboutBtn.on('click', () => {
+//     body.css('background-color', '#E0F7FA');
+//     nameSection.hide();
+//     aboutSection.fadeIn();
+// });

@@ -8,6 +8,13 @@
 html, body {
     height: 100vh;
 }
+/* All h4 sub-titles */
+.sub-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #FF9800;
+}
 
 /*
 * Main container
@@ -85,7 +92,7 @@ html, body {
 */
 
 .container-about {
-    height: 100v%;
+    height: 100%;
     margin: 0 5% 0 5%;
 }
 
@@ -114,13 +121,6 @@ html, body {
     margin: 20px auto 0 auto;
 }
 
-.tech-stack h4 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 10%;
-    color: #6200EE;
-}
-
 .tech-stack ul {
     display: flex;
     flex-direction: row;
@@ -134,7 +134,55 @@ html, body {
 }
 
 /*
-* Name section
+* Section (Work)
+*/
+
+.container-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.work {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.work img {
+  width: 100%;
+  height: 69%;
+}
+
+.work h5 {
+   background-color: #000;
+   color: #fff;
+   font-size: 1.25rem;
+   text-align: center;
+   padding: 5px;
+}
+
+.project-icons {
+   background-color: #000;
+   text-align: center;
+}
+
+.project-icons a {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.project-icons a:hover {
+    color: #bbb;
+}
+
+/*
+* Section (Name)
 */
 
 .name-section {
