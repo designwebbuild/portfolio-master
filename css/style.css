@@ -316,3 +316,60 @@ html, body {
         font-size: 1.9rem;
     }
 }
+
+@Media only screen and (max-width: 350px) {
+    .container {
+        max-width: 100%;
+        min-height: 100%;
+        background-color: #FFF8E1;
+    }
+    
+    .nav-li a {
+        font-size: 0.8rem;
+        margin: 0 5px;
+    }
+
+    .logo-img img {
+        width: 100px;      
+    }
+
+    .name {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .social-icons {
+        position: fixed;
+    }
+
+    .social-icons li {
+        margin: 0;
+        font-size: 2.2rem;
+    }
+
+    .container-about img {
+        width: 100px;
+    }
+
+    .about-text p {
+        font-size: 0.8rem;
+    }
+
+    .work {
+        width: 200px;
+        height: 200px;
+    }
+
+    .work h5 {
+        font-size: 0.9rem;
+    }
+
+    .project-icons a {
+        font-size: 1.5rem;
+    }
+
+}
