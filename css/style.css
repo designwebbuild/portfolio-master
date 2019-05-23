@@ -217,6 +217,40 @@ html, body {
 }
 
 /*
+* Section (Blog)
+*/
+
+.blog-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-container {
+    display: block;
+    width: 400px;
+}
+
+.blog-title {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #111;
+}
+
+.blog-content {
+    font-weight: 200;
+    line-height: 1.5rem;
+    color: #4E616C;
+    margin-bottom: 10px;
+}
+
+.blog-date {
+    color: #B5B5B5;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+/*
 * Footer container
 */
 
