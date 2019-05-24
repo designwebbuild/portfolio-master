@@ -17,7 +17,7 @@ let randomColors = Math.floor(Math.random() * colors.length);
 
 
 // Hidden about me section on page load
-nameSection.hide();
+
 aboutSection.hide();
 workSection.hide();
 

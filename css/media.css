@@ -1,0 +1,143 @@
+/* Media Queries */
+
+@Media only screen and (max-width: 991px) {
+    .nav-li a {
+        font-size: 1.5rem;
+        margin: 0 25px;
+    }
+
+    .container-about img {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .about-text p {
+        font-size: 1.1rem;
+    }
+
+    .tech-stack ul {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work {
+        width: 250px;
+        height: 240px;
+    }
+
+    .work h5 {
+        font-size: 1.1rem;
+    }
+}
+
+@Media only screen and (max-width: 700px) {
+    .nav-li a {
+        font-size: 1.1rem;
+        margin: 0 15px;
+    }
+
+    .name-section img {
+        display: none;
+    }
+
+    .name {
+        font-size: 2.5rem;
+        font-weight: 200;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        font-size: 2.3rem;
+    }
+
+    .logo-section {
+        margin: 40px 0 20px 0;
+    }
+
+    .social-icons {
+        position: fixed;
+    }
+
+    .social-icons li {
+        margin: 0 10px;
+        font-size: 4rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .sub-title {
+        margin: 50px 0;
+    }
+
+    .tech-stack ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tech-stack .fab {
+        font-size: 1.9rem;
+    }
+}
+
+@Media only screen and (max-width: 350px) {
+    .container {
+        max-width: 100%;
+        min-height: 100%;
+        background-color: #FFF8E1;
+    }
+    
+    .nav-li a {
+        font-size: 0.8rem;
+        margin: 0 5px;
+    }
+
+    .logo-img img {
+        width: 100px;      
+    }
+
+    .name {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .social-icons {
+        position: fixed;
+    }
+
+    .social-icons li {
+        margin: 0;
+        font-size: 2.2rem;
+    }
+
+    .container-about img {
+        width: 100px;
+    }
+
+    .about-text p {
+        font-size: 0.8rem;
+    }
+
+    .work {
+        width: 200px;
+        height: 200px;
+    }
+
+    .work h5 {
+        font-size: 0.9rem;
+    }
+
+    .project-icons a {
+        font-size: 1.5rem;
+    }
+
+}
